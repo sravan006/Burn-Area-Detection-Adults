@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TBSA"
+        android:id="@+id/TBSA"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/result1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TBSA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Get TBSA Result" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TBSA Result"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/result1"
+        android:layout_marginTop="50dp"
+        android:id="@+id/TBSAResult"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Amount of Fluid"
+        android:id="@+id/FLuid"
+        android:textAlignment="center"
+        android:layout_below="@id/TBSAResult"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/buttonresult2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FLuid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Amount of Fluid should be given to patient" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Amount of fluid"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/buttonresult2"
+        android:layout_marginTop="50dp"
+        android:id="@+id/fluidresult1"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/frontFragment">
+
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.example.burnproject.FormFragment"
+        android:label="FormFragment" >
+        <action
+            android:id="@+id/action_formFragment_to_resultFragment2"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/frontFragment"
+        android:name="com.example.burnproject.FrontFragment"
+        android:label="FrontFragment" >
+        <action
+            android:id="@+id/action_frontFragment_to_backFragment"
+            app:destination="@id/backFragment" />
+        <argument
+            android:name="fromfront"
+            app:argType="string[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/backFragment"
+        android:name="com.example.burnproject.BackFragment"
+        android:label="BackFragment" >
+        <action
+            android:id="@+id/action_backFragment_to_formFragment"
+            app:destination="@id/formFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.burnproject.ResultFragment"
+        android:label="ResultFragment" >
+        <action
+            android:id="@+id/action_resultFragment_to_frontFragment"
+            app:destination="@id/frontFragment" />
+    </fragment>
+</navigation>

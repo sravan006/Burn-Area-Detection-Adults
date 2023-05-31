@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BurnProject</string>
+    <string name="login">Login</string>
+    <string name="email">Email ID</string>
+    <string name="password">Password</string>
+    <string name="reenterpassword">Re-Enter Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="name">Name/नाम *</string>
+    <string name="age">Age/आयु*</string>
+    <string name="weight">Weight/वज़न*</string>
+    <string name="time">Approximate time from burn/समय*</string>
+    <string name="result">Result</string>
+    <string name="cause">Cause of Burn/कारण</string>
+    <string name="medical">Medical History/चिकित्सा का इतिहास</string>
+    <string name="fluidresult">Calculate Fluid &amp; Burn %</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
